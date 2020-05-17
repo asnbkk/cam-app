@@ -1,0 +1,12 @@
+.vid {
+    width: 100%;
+    height: 100%;
+}
+.gallery {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
+.gallery img {
+    height: 200px;
+}
